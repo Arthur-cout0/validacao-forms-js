@@ -6,14 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validação e Formatação de Campos</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
     <h1>Validação e Formatação de Campos</h1>
     <form action="#">
-        <label for="nome">Nome: </label>
-        <input type="text" pattern="([aA-zZ]+)" placeholder="Apenas letras">        
-        <input type="submit"> 
+        <div class="form-element">
+            <label for="nome">Nome: </label>
+            <input class="input" type="text" pattern="([aA-zZ]+)" placeholder="Apenas letras">         
+        </div>
+        <input class="btn" type="submit">
     </form>
 </body>
 </html>
